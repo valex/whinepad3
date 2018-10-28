@@ -1,0 +1,34 @@
+{
+  "name": "reactbook-boiler",
+  "version": "1.0.0",
+  "babel": {
+    "presets": [
+      "flow",
+      "react",
+      "env"
+    ]
+  },
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "browserify": "^16.2.3",
+    "classnames": "^2.2.6",
+    "fbemitter": "^2.1.1",
+    "immutable": "^3.8.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "scripts": {
+    "build": "sh scripts/build.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
